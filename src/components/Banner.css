@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     font-family: 'Nunito', sans-serif;
   }
   .banner {
@@ -26,9 +26,9 @@
     min-height: 248px;
   }
   .geekly {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 1;
-    text-shadow: 4px 4px 1px #ca40ba;
+    text-shadow: 4px 4px 2px #ca40ba;
     padding-left: 60px;
   }
   
@@ -55,7 +55,12 @@
     color: transparent
 
 }
-.Typewriter__wrapper {
-  font-size: 50px;
-}
 
+
+/* .developer {
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+} */
