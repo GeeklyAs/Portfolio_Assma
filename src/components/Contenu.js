@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Apropos from './Apropos'
 import Header from './Header'
 import Services from './Services'
+import Competence from './Competences'
 
 function Contenu() {
     return (
@@ -11,6 +12,7 @@ function Contenu() {
             <Banner />
             <Apropos />
             <Services />
+            <Competence />
 
             
         </div>

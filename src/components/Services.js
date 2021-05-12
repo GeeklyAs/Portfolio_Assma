@@ -10,50 +10,50 @@ function Services() {
     useEffect(()=> {
         Aos.init({duration: 2000});
     }, [])
+    let addStyle =(e) => {
+        if (e.target.classList.contains('styled')) {
+            e.target.classList.remove('styled')
+        }else{
+            e.target.classList.add('styled')
+        }
+    }
+
     return (
         <Fragment>
-            <section className="services pt-5">
-                <div className="container">
-                    <div className="pt-5">
-                        <h1 className="text-center animate__animated animate__pulse">SERVICES</h1>
+            <div className="row services">
+                <div className="titreServices">
+                    <h1 className=" animate__animated animate__pulse">SERVICES</h1>
+                    <p>The services I offer : </p>
+                </div>
+                <div className="col-3 cards" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="imgDiv" data-aos="fade-down">
+                        <img onMouseOver={addStyle} src="../img/responsiv.png" alt="responsiv" className="img styled"/>
                     </div>
-                    <div className="pt-3">
-                        <CardDeck className="row ">
-                            <Card className="col-4 cards">
-                                <Card.Img className="img"  src="../img/responsiv.png" />
-                                <Card.Body>
-                                <Card.Title>Responsiv Design</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-4">
-                                <Card.Img variant="top" src="../img/coding.png" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.{' '}
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-4">
-                                <Card.Img variant="top" src="../img/photography.png" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to
-                                    show that equal height action.
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </CardDeck>
+                    <h4>RESPONSIV DESIGN</h4>
+                    <span onMouseOver={addStyle} className="styled">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                </div>
+                <div className="col-3 cards" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="imgDiv"data-aos="fade-down">
+                        <img onMouseOver={addStyle} src="../img/coding2.png" className="img styled" />
                     </div>
-                </div>                
-            </section>
+                    <h4 data-aos="fade-right">WEB DEVELOPER</h4>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                </div>
+                <div className="col-3 cards" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="imgDiv" data-aos="fade-down">
+                        <img onMouseOver={addStyle} src="../img/photography.png" alt="" className="img styled"/>
+                    </div>
+                    <h4 data-aos="fade-right">WEB DESIGN</h4>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                </div>
+                {/* <div className="col-3 cards">
+                    <div>
+                        <img src="../img/photography.png" alt="" className="img"/>
+                    </div>
+                    <h2>Photography</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                </div> */}
+            </div>
         </Fragment>
     )
 }
