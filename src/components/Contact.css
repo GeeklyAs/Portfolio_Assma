@@ -1,0 +1,46 @@
+.contactAll{
+    background-color: black;
+    color: white;
+}
+
+/* .pgauche{
+
+} */
+
+/* .dflexAll{
+    width: 60%;
+} */
+
+.btnn{
+    background-color: #c16ff0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.coord{
+    border-right: aliceblue 3px solid;
+}
+.message{
+    padding: 0px;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+ h5{
+     color:rgba(255, 255, 255, 0.363)
+ }

@@ -1,0 +1,28 @@
+.reseau{
+    background-image: url('../img/reseau.png');
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(4px); */
+    /* margin: -5px; */
+    /* margin-right: -5px; */
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+
+    
+}
+.bg-imageReseau{
+    /* background-color: rgb(182, 16, 16); */
+    /* height: 50px;
+    width: 230px; */
+    /* padding-top: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+

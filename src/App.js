@@ -1,6 +1,5 @@
 import React from 'react'
 import Contenu from './components/Contenu'
-import Animate from 'animate.css';
 
 
 function App() {

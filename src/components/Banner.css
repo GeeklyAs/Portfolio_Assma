@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 140px 0;
     padding-left: 200px;
   }
@@ -31,7 +31,6 @@
     text-shadow: 4px 4px 2px #ca40ba;
     padding-left: 60px;
   }
-  
   .baliseh1{
     display: block;
     font-size: 21px;
@@ -64,3 +63,24 @@
   text-align: center;
 
 } */
+
+@media (max-width: 648px) {
+  /*Mobile View */
+  .banner{
+    width: 100%;
+  }
+  .bannerInfo{
+    padding-left: 8%;
+  }
+  .geekly{
+    font-size: 30px;
+  }
+  .geekly>.Typewriter{
+    font-size: 25px;
+  }
+  .banner{
+    background-size: cover;  
+
+  }
+
+}

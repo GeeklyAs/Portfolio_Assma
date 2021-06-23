@@ -4,8 +4,10 @@
     display: flex;
     /* justify-content: center; */
     width: 100%;
-    background-color: #0000003a;
+    background-color: #000000;
     z-index: 1;
+    
+    
 
 }
 
@@ -51,3 +53,17 @@
     list-style: none;
     color:rgb(255, 255, 255);   
 }
+/* .color-nav {
+    background-color: black;
+    color: white;
+} */
+
+/* @media only screen and (min-width: 350px) and (max-width: 850px) {
+    .header{
+        background-color: #c16ff0;
+    }
+    .header>.link>a{
+
+        color: black;
+    }
+  } */

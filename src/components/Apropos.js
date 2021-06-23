@@ -9,12 +9,12 @@ function Apropos() {
     }, [])
     return (
         <Fragment>
-            <section id="about" className="about">
+            <section id="1" className="about">
                 <div className="container py-5">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center">ABOUT</h1>
-                            <p className="text-center">Biography : </p>
+                            <p className="text-center" data-aos="zoom-in-up">Biography : </p>
                         </div>
                     </div>
                     <div className="row  p-4">
@@ -23,7 +23,7 @@ function Apropos() {
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, consequuntur alias similique eveniet nam, ex eum suscipit eius illo aliquam placeat autem accusamus excepturi perferendis, iste veniam temporibus maxime magni blanditiis iure rerum. Tempore minima ducimus eum inventore mollitia necessitatibus dolor! Inventore maiores accusantium mollitia assumenda praesentium atque ratione unde!</p>     
                         </div>
 
-                        <div className="col-md-6" data-aos="zoom-in-left" >
+                        <div className="col-md-6" data-aos="fade-up" >
                             <img src="../img/geekly.PNG" alt="geekly" className="w-100"/>
                         </div>
                     </div>

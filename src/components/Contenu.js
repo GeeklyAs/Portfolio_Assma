@@ -1,18 +1,29 @@
 import React from 'react'
+import Navbar from './Nav/Navbar';
 import Banner from './Banner'
 import Apropos from './Apropos'
-import Header from './Header'
 import Services from './Services'
 import Competence from './Competences'
+import Info from './Info'
+import Galerie from './Galerie'
+import Contact from './Contact'
+// import Reseau from './Reseau'
+
 
 function Contenu() {
     return (
         <div>
-            <Header />
+            <Navbar />
             <Banner />
             <Apropos />
             <Services />
             <Competence />
+            <Info /> 
+            <Galerie />
+            <Contact />
+            {/* <Reseau /> */}
+
+
 
             
         </div>

@@ -26,7 +26,7 @@ function Banner() {
               <h2 className="geekly">
                 Hi, <br/>
                 My name is Geekly
-                <Typewriter
+                <Typewriter 
                   onInit={(Typewriter) => {
                       Typewriter
                       .typeString("Web developer")
@@ -53,7 +53,11 @@ function Banner() {
                       .typeString("Frontend developer")
                       .deleteAll()
                       .start()
-
+                      .typeString("Web developer")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Frontend developer")
+                      .deleteAll()
                   }}
                 />
 
@@ -62,7 +66,7 @@ function Banner() {
             </Typist>
           </div>
           <Typist cursor={{show: false}}>
-          <Typist.Delay ms={3800} />
+          <Typist.Delay ms={500} />
             <span  className="balisebody">&lt;/body&gt;</span>
           </Typist>
         </div>
