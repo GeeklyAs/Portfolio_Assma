@@ -1,5 +1,5 @@
 .contactAll{
-    background-color: black;
+    background: linear-gradient(#000000, #c16ff0);
     color: white;
 }
 
@@ -12,9 +12,9 @@
 } */
 
 .btnn{
-    background-color: #c16ff0;
+    background-color: white;
     border: none;
-    color: white;
+    color: #c16ff0;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -43,4 +43,27 @@
  }
  h5{
      color:rgba(255, 255, 255, 0.363)
+ }
+ @media (max-width: 812px) {
+     .coord{
+         border-right: none;
+     }
+     div.contactTest{
+        padding: 0%;
+        margin: 0%;
+    }
+    div.row.d-flex{
+        padding: 0%;
+    }
+
+  }
+  @media (max-width: 1024px) {
+    .coord{
+        border-right: none;
+        
+    }
+    div.contactTest{
+        padding: 0%;
+        margin: 0%;
+    }
  }

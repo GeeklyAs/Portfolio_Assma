@@ -91,6 +91,30 @@ span:hover{
 }
 @media (max-width: 648px) {
     .cards{
-        margin: 1% 1%;
+        margin: 5%;
+    }
+    div.cardTest.row.d-flex{
+        padding: 5%;
+    }
+    .img {
+        height: 90px;
+        width: 90px;
+        /* border: rgb(255, 255, 255) 5px solid; */
+        border: rgb(0, 0, 0) 8px solid;
+        border-radius: 50%;
+        text-align: center;
+        padding: 2%;
+        background-color: #fdfdfd77;
+    
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .cards{
+        margin: 5%;
+    }
+    div.cardTest.row.d-flex{
+        padding: 2% 15%;
     }
 }

@@ -85,7 +85,7 @@ function Contact() {
         <div id='6' className="contactAll pt-5">
             <div className=" pgauche container">
             <form onSubmit={sendEmail}>
-                    <div className="row d-flex justify-content-center align-items-center pb-5">
+                    <div className="contactTest row d-flex justify-content-center align-items-center pb-5">
                         <div className="coord col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column pb-5">
                         <h1>Your contact details</h1>
 

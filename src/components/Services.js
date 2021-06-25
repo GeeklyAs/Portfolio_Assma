@@ -28,32 +28,37 @@ function Services() {
 
     return (
         <Fragment>
-            <div id="2" className="services m-0">
+            <div id="2" className="services m-0 pt-5">
                 <div className="titreServices">
                     <h1 className=" animate__animated animate__pulse">SERVICES</h1>
                     <p data-aos="fade-right">The services I offer : </p>
                 </div>
-                <div className="row d-flex justify-content-center m-0 ">                
+                <div className="cardTest row d-flex justify-content-center m-0 ">                
                     <div className=" col-lg-3 cards" onMouseOver={addStyleBorder} data-aos="fade-up" data-aos-duration="1000">
                         <div className="imgDiv" data-aos="fade-down">
                             <img onMouseOver={addStyle} src="../img/responsiv.png" alt="responsiv" className="img styled"/>
                         </div>
                     <h4 data-aos="fade-right">RESPONSIV DESIGN</h4>
-                    <span onMouseOver={addStyle} className="styled">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                    <span onMouseOver={addStyle} className="styled">
+From the computer version to the tablet version up to the phone format the user can thus consult
+your website through a wide range of devices.</span>
                     </div>
                     <div className="col-lg-3 cards" onMouseOver={addStyleBorder} data-aos="fade-up" data-aos-duration="1000">
                         <div className="imgDiv"data-aos="fade-down">
                             <img onMouseOver={addStyle} src="../img/coding2.png" alt="coding" className="img styled" />
                         </div>
                         <h4 data-aos="fade-right">WEB DEVELOPER</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                        <span>
+
+                        From the showcase site to the more complex project, I offer you expertise and web development that meets your expectations and your needs.</span>
                     </div>
                     <div className=" col-lg-3 cards" onMouseOver={addStyleBorder} data-aos="fade-up" data-aos-duration="1000">
                         <div className="imgDiv" data-aos="fade-down">
                             <img onMouseOver={addStyle} src="../img/photography.png" alt="photography" className="img styled"/>
                         </div>
                         <h4 data-aos="fade-right">WEB DESIGN</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis neque accusamus unde. Facilis, ducimus? Impedit, repudiandae odio. Qui magnam illum sed? Quidem quisquam magnam quaerat, doloribus delectus sint ipsum tempore?</span>
+                        <span>
+Confused about what design to use for your site? No logo with the effigy of your company? I'll take care of everything !</span>
                     </div>
                 </div>
                 {/* <div className="col-3 cards">

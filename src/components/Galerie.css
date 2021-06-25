@@ -8,10 +8,12 @@
 
 }
 .cardsGalerie{
-    margin-right: 1%;
+    /* margin-right: 1%; */
     position: relative;
+    /* box-shadow: 5px 0px 5px 5px rgb(255, 255, 255); */
     /* width: 100px;
     height: 300px; */
+    padding: 10%;
 }
 
 .cardsGalerie:hover{
@@ -76,10 +78,20 @@
 }
 @media (max-width: 648px) {
   div.row{
-    --bs-gutter-x: 1.5rem;
-    margin-right: 0%;
-  }
-div.cardsGalerie{
-margin: 5%;
+    /* --bs-gutter-x: 1.5rem; */
+    /* margin-right: 0%; */
+    margin: 0% 5% 0% 5%;
+    }
+/* div.cardsGalerie{
+margin: 0% 5%;
+} */
 }
+@media (max-width: 1024px) {
+  div.row{
+    /* padding:5%; */
+    margin: 0% 5% 0% 5%;
+
+
+  }
+
 }

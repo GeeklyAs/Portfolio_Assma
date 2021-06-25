@@ -4,14 +4,22 @@ import RightNav from './RightNav';
 
 const StyledBurger = styled.div`
   width: 2rem;
+  // padding: 0px
+
   height: 2rem;
   position: fixed;
   top: 15px;
   right: 20px;
   z-index: 20;
   display: none;
+  // color: white;
 
   @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
+  @media (max-width: 1024px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;

@@ -7,3 +7,8 @@
     /* width: 150px; */
     /* width: 120px; */
 }
+@media (max-width: 1024px) {
+    .imgSkills {
+        height: 100px;
+    }
+     }

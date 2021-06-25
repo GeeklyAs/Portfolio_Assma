@@ -9,22 +9,22 @@ function Apropos() {
     }, [])
     return (
         <Fragment>
-            <section id="1" className="about">
-                <div className="container py-5">
-                    <div className="row">
+            <section id="1" className="about pt-5">
+                <div className="container">
+                    <div className="row text-center">
                         <div className="col-md-12">
                             <h1 className="text-center">ABOUT</h1>
                             <p className="text-center" data-aos="zoom-in-up">Biography : </p>
                         </div>
                     </div>
-                    <div className="row  p-4">
-                        <div className="  col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, consequuntur alias similique eveniet nam, ex eum suscipit eius illo aliquam placeat autem accusamus excepturi perferendis, iste veniam temporibus maxime magni blanditiis iure rerum. Tempore minima ducimus eum inventore mollitia necessitatibus dolor! Inventore maiores accusantium mollitia assumenda praesentium atque ratione unde!</p>      
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, consequuntur alias similique eveniet nam, ex eum suscipit eius illo aliquam placeat autem accusamus excepturi perferendis, iste veniam temporibus maxime magni blanditiis iure rerum. Tempore minima ducimus eum inventore mollitia necessitatibus dolor! Inventore maiores accusantium mollitia assumenda praesentium atque ratione unde!</p>     
+                    <div className="row text-center">
+                        <div className=" textAbout col-md-12" data-aos="fade-up" data-aos-duration="1000">
+                            <p>Straight out of my training as a Web developer at MolenGeek, I immediately hooked up with the Front-End.</p>      
+                            <p>Having always had an artistic eye and passionate about the code, the two make a perfect symbiosis between being able to express my creative side and my passion for code.</p>     
                         </div>
 
-                        <div className="col-md-6" data-aos="fade-up" >
-                            <img src="../img/geekly.PNG" alt="geekly" className="w-100"/>
+                        <div className="imgLogo col-md-12" data-aos="fade-up" >
+                            <img src="../img/geeklyLogoPng.PNG" alt="geekly"/>
                         </div>
                     </div>
                 </div>
