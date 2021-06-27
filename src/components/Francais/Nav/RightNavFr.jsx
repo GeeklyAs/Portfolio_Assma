@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 // import DropdownButton from 'react-bootstrap/DropdownButton'
 // import Dropdown from 'react-bootstrap/Dropdown'
 // import ContenuFrancais from '../Francais/ContenuFrancais'
@@ -24,6 +24,13 @@ const Ul = styled.ul`
     text-decoration: none;
 
   };
+
+  // .aproposfr>a {
+  //   padding-right: 10%;
+  //   color:  blue;
+
+
+  // }
   .link>a{
     text-decoration: none;
     position: relative;
@@ -41,10 +48,14 @@ const Ul = styled.ul`
     width: 0px;
     height: 2px;
     transition: 0.80s;
-};
-li.link>a:hover::before{
-  width: 100%;
-}
+  };
+  li.link>a:hover::before{
+    width: 100%;
+  }
+  // .aproposFr{
+  //   padding-left: 7%;
+  // }
+
 
   @media (max-width: 768px) {
     
@@ -62,7 +73,7 @@ li.link>a:hover::before{
     li {
       color: #c16ff0;
       text-align: center;
-      padding: 50px 0px;
+      padding: 30px 0px;
       font-size : 30px;
 
     }
@@ -102,31 +113,28 @@ li.link>a:hover::before{
 
 
 
-const RightNav = ({ open }) => {
+const RightNavFr = ({ open }) => {
   return (
 
     <Ul className=" p-0 pt-3" open={open}>
-      <li className="link">
-        <a data-aos="fade-up-left" href="/#1">ABOUT</a>
+      <li className="link aproposFr">
+        <a data-aos="fade-up-left" href="#1fr">A PROPOS</a>
       </li>
       <li className="link">
-        <a data-aos="zoom-in-down" href="/#2">SERVICES </a>
+        <a data-aos="zoom-in-down" href="#2fr">SERVICES </a>
       </li>
       <li className="link">
-        <a data-aos="zoom-in-down" href="/#3">SKILL</a>
+        <a data-aos="zoom-in-down" href="#3fr">COMPETENCE</a>
       </li>
       <li className="link">
-        <a data-aos="zoom-in-down" href="/#4">PORTFOLIO</a>
+        <a data-aos="zoom-in-down" href="#4fr">PORTFOLIO</a>
       </li>
       <li className="link">
-        <a data-aos="zoom-in-down" href="/#5">CONTACT</a>
+        <a data-aos="zoom-in-down" href="#5fr">CONTACT</a>
       </li>
-      {/* <li className="link">
-        <Link data-aos="fade-up-left" to="/fr">FR</Link>
-      </li> */}
 
     </Ul>
   )
 }
 
-export default RightNav
+export default RightNavFr

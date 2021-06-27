@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Nav/Navbar';
+import Navbar from './Nav/Navbar'
 import Banner from './Banner'
 import Apropos from './Apropos'
 import Services from './Services'

@@ -1,0 +1,97 @@
+.galerie{
+    background: linear-gradient( #000000, #000000);
+    /* background-color: black; */
+}
+.titreGalerie{
+    text-align: center;
+    color: white;
+
+}
+.cardsGalerie{
+    /* margin-right: 1%; */
+    position: relative;
+    /* box-shadow: 5px 0px 5px 5px rgb(255, 255, 255); */
+    /* width: 100px;
+    height: 300px; */
+    padding: 10%;
+}
+
+.cardsGalerie:hover{
+    border: 5px solid #ffffff;
+    /* transition: ease-in 0.1s; */
+
+}
+/* .cardsGalerie>button{
+    position: absolute;
+    text-align: center;
+} */
+.textHover {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imgGalerie {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .imgGalerie:hover{
+    filter: blur(5px);
+      
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .textHover:hover .image {
+    opacity: 0.3;
+  }
+  
+  .textHover:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #b10bdb86;
+    border: #ffffff 2px solid ;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 12px 15px;
+    border-radius: 10px;
+  }
+.titreHover{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+@media (max-width: 648px) {
+  div.row{
+    /* --bs-gutter-x: 1.5rem; */
+    /* margin-right: 0%; */
+    margin: 0% 5% 0% 5%;
+    }
+/* div.cardsGalerie{
+margin: 0% 5%;
+} */
+}
+@media (max-width: 1024px) {
+  div.row{
+    /* padding:5%; */
+    margin: 0% 5% 0% 5%;
+
+
+  }
+
+}

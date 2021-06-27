@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import Button from 'react-bootstrap/Button'
-// import {Link} from "react-router-dom";
-
-import Burger from './Burger';
+import BurgerFr from './BurgerFr';
 
 const Nav = styled.nav`
 position: fixed;
@@ -18,19 +15,11 @@ width: 100%;
   justify-content: space-between;
 
   // .logo {
-  //   padding: 0px 0px;
+  //   padding: 15px 0;
   // }
-
-  div.logo.d-flex{
-    padding : 10px;
-  }
   .logoGeekly{
     height : 40px;
-    // padding-right: 5%;
-  }
-  .belgique{
-    height : 20px;
-    // padding: 0% 0% 0% %;
+    // padding: 0%;
   }
 
   #btnLang{
@@ -42,8 +31,13 @@ width: 100%;
     list-style-type: none;
 }
   div.logo{
-    padding: 1% 0% 0% 5%;
+    padding: 1% 0% 0% 0%;
   }
+  .anglais{
+    height : 20px;
+    // padding: 0% 0% 0% %;
+  }
+
   @media only screen and (min-width: 150px) and (max-width: 820px) {  
     /*Mobile View */
     div.logo{
@@ -59,19 +53,19 @@ width: 100%;
     }
 `
 
-const Navbar = () => {
+const NavbarFr = () => {
   return (
     <Nav>
       <div className="logo d-flex">
-          <a href="/"><img src="../img/geeklyLogo.PNG" className="logoGeekly" alt="LOGO" /></a>
-          <div className="belgiqueAll">
-            <a href="/fr"><img src="../img/belgique.png" className="belgique" alt="belgique"  /></a>
+      <a href="fr"><img src="../img/geeklyLogo.PNG" className="logoGeekly" alt="LOGO" /></a>
           {/* <img src="../img/geeklyLogoPng.png" className="logoGeekly" alt="LOGO"  /> */}
+          <div className="anglaisAll">
+            <a href="/"><img src="../img/anglais.png" className="anglais" alt="belgique"  /></a>
         </div>
       </div>
-      <Burger />
+      <BurgerFr />
     </Nav>
   )
 }
 
-export default Navbar
+export default NavbarFr

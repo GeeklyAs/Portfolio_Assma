@@ -1,0 +1,14 @@
+.competence{
+    background: linear-gradient(#c16ff0,#000000);
+    color: white;
+}
+.imgSkills {
+    height: 110px;
+    /* width: 150px; */
+    /* width: 120px; */
+}
+@media (max-width: 1024px) {
+    .imgSkills {
+        height: 100px;
+    }
+     }

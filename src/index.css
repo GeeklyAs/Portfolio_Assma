@@ -25,6 +25,10 @@ img.styled{
   border: 5px black solid;
 }
 
+h1{
+  font-weight: bold;
+}
+
 /* span.styled{
   color: black;
 } */

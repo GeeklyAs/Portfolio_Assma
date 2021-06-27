@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .banner {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('../img/banner3.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
+  .bannerInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+    padding: 140px 0;
+    padding-left: 200px;
+  }
+
+  .descriptionTitre {
+    min-height: 248px;
+  }
+
+  .geekly {
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: 4px 4px 2px #ca40ba;
+    padding-left: 60px;
+  }
+
+  .baliseh1{
+    display: block;
+    font-size: 21px;
+    color: #ca40ba;
+    font-weight: 800;
+    text-shadow: none;
+    margin: 20px 30px
+  }
+
+  .balisebody {
+    display: block;
+    font-size: 21px;
+    color: #ca40ba;
+    font-weight: 800;
+    text-shadow: none;
+    /* margin: 3px 10px */
+  }
+
+.Typewriter__cursor{
+    color: transparent
+
+}
+
+
+/* .developer {
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+} */
+
+/* @media (max-width: 900px) {
+} */
+
+@media only screen and (min-width: 150px) and (max-width: 820px) {  
+  /*Mobile View */
+  .banner{
+    width: 100%;
+  }
+
+  .bannerInfo{
+    padding-left: 8%;
+  }
+
+  .geekly{
+    font-size: 30px;
+  }
+
+  .geekly>.Typewriter{
+    font-size: 25px;
+  }
+
+  .banner{
+    /* background-size: cover;   */
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+    /* margin: auto; */
+    /* background-image: url('../../img/bannerResp.jpg'); */
+
+  }
+}
+/* @media (max-width: 1024px) {
+
+} */
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {  
+  /*Mobile View */
+  .banner{
+    width: 100%;
+  }
+
+  .bannerInfo{
+    padding-left: 20%;
+  }
+
+  .geekly{
+    font-size: 50px;
+  }
+
+  .geekly>.Typewriter{
+    font-size: 45px;
+  }
+  .balisebody {
+    display: block;
+    font-size: 35px;
+    color: #ca40ba;
+    font-weight: 800;
+    text-shadow: none;
+    /* margin: 3px 10px */
+  }
+  .baliseh1{
+    display: block;
+    font-size: 31px;
+    color: #ca40ba;
+    font-weight: 800;
+    text-shadow: none;
+    margin: 30px 40px
+  }
+
+
+
+  .banner{
+    /* background-size: cover;   */
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+    /* margin: auto; */
+    /* background-image: url('../img/bannerResp.jpg'); */
+    width: 100%;
+  }}

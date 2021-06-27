@@ -64,10 +64,10 @@
 // export default Contact
 import emailjs from "emailjs-com";
 import React from 'react';
-import './Contact.css';
+import './ContactFr.css';
 
 
-function Contact() {
+function ContactFr() {
 
     function sendEmail(e) {
         e.preventDefault();
@@ -82,38 +82,38 @@ function Contact() {
     }
 
     return(
-        <div id='5' className="contactAll pt-5">
+        <div id='5fr' className="contactAll pt-5">
             <div className=" pgauche container">
             <form onSubmit={sendEmail}>
                     <div className="contactTest row d-flex justify-content-center align-items-center pb-5">
                         <div className="coord col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column pb-5">
-                        <h1>Your contact details</h1>
+                        <h1>Vos coordonnée :</h1>
 
                             <div className="col-8 form-group ">
-                            <h5>Your name:</h5>
-                                <input type="text" className="form-control inputBorder" placeholder="Name" name="name"/>
+                            <h5>Votre nom:</h5>
+                                <input type="text" className="form-control inputBorder" placeholder="Nom" name="name"/>
                             </div>
                             <div className="col-8 form-group pt-2">
-                            <h5>Your adress mail:</h5>
-                                <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                            <h5>Votre adresse mail :</h5>
+                                <input type="email" className="form-control" placeholder="Adresse mail" name="email"/>
                             </div>
                             <div className="col-8 form-group pt-2">
-                            <h5>Your phone number:</h5>
-                                <input type="number" className="form-control" placeholder="+32" name="number" />
+                            <h5>Votre numéro de téléphone:</h5>
+                                <input type="number" className="form-control" placeholder="+32" name="numéro" />
                             </div>
                         </div>
                         <div className="message col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column ">
-                            <h1 className="mt-3">Your message</h1>
+                            <h1 className="mt-3">Votre message</h1>
                             <div className="col-8 form-group  ">
-                                <h5>Email subject :</h5>
-                                <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                                <h5>Sujet de votre mail</h5>
+                                <input type="text" className="form-control" placeholder="Sujet" name="sujet"/>
                             </div>
                             <div className="col-8 form-group pt-2">
-                            <h5>Your message:</h5>
-                                <textarea className="form-control" id="" cols="30" rows="5" placeholder="I respond quickly!" name="message"></textarea>
+                            <h5>Votre message:</h5>
+                                <textarea className="form-control" id="" cols="30" rows="5" placeholder="Je vous répond rapidement !" name="message"></textarea>
                             </div>
                             <div className="col-8 pt-3 d-flex">
-                                <input type="submit" className="btnn" value="Send Message"></input>
+                                <input type="submit" className="btnn" value="Envoyer"></input>
                             </div>
 
                         </div>
@@ -123,4 +123,4 @@ function Contact() {
         </div>
     )
 }
-export default Contact
+export default ContactFr
