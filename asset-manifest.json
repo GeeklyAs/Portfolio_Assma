@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio_Assma/static/css/main.adfd6f3d.chunk.css",
-    "main.js": "/Portfolio_Assma/static/js/main.504c3e15.chunk.js",
-    "main.js.map": "/Portfolio_Assma/static/js/main.504c3e15.chunk.js.map",
+    "main.css": "/Portfolio_Assma/static/css/main.c8642aca.chunk.css",
+    "main.js": "/Portfolio_Assma/static/js/main.b8159d33.chunk.js",
+    "main.js.map": "/Portfolio_Assma/static/js/main.b8159d33.chunk.js.map",
     "runtime-main.js": "/Portfolio_Assma/static/js/runtime-main.0cd819ce.js",
     "runtime-main.js.map": "/Portfolio_Assma/static/js/runtime-main.0cd819ce.js.map",
     "static/css/2.cda3c33c.chunk.css": "/Portfolio_Assma/static/css/2.cda3c33c.chunk.css",
-    "static/js/2.8cdb883e.chunk.js": "/Portfolio_Assma/static/js/2.8cdb883e.chunk.js",
-    "static/js/2.8cdb883e.chunk.js.map": "/Portfolio_Assma/static/js/2.8cdb883e.chunk.js.map",
+    "static/js/2.b893d01b.chunk.js": "/Portfolio_Assma/static/js/2.b893d01b.chunk.js",
+    "static/js/2.b893d01b.chunk.js.map": "/Portfolio_Assma/static/js/2.b893d01b.chunk.js.map",
     "static/js/3.34132e0d.chunk.js": "/Portfolio_Assma/static/js/3.34132e0d.chunk.js",
     "static/js/3.34132e0d.chunk.js.map": "/Portfolio_Assma/static/js/3.34132e0d.chunk.js.map",
     "index.html": "/Portfolio_Assma/index.html",
     "static/css/2.cda3c33c.chunk.css.map": "/Portfolio_Assma/static/css/2.cda3c33c.chunk.css.map",
-    "static/css/main.adfd6f3d.chunk.css.map": "/Portfolio_Assma/static/css/main.adfd6f3d.chunk.css.map",
-    "static/js/2.8cdb883e.chunk.js.LICENSE.txt": "/Portfolio_Assma/static/js/2.8cdb883e.chunk.js.LICENSE.txt",
+    "static/css/main.c8642aca.chunk.css.map": "/Portfolio_Assma/static/css/main.c8642aca.chunk.css.map",
+    "static/js/2.b893d01b.chunk.js.LICENSE.txt": "/Portfolio_Assma/static/js/2.b893d01b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portfolio_Assma/static/media/Nunito-Light.abdadce6.ttf",
     "static/media/Banner.css": "/Portfolio_Assma/static/media/bannerResp.c69eb8bb.jpg",
     "static/media/InfoFr.css": "/Portfolio_Assma/static/media/reseau.d06157b8.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.0cd819ce.js",
     "static/css/2.cda3c33c.chunk.css",
-    "static/js/2.8cdb883e.chunk.js",
-    "static/css/main.adfd6f3d.chunk.css",
-    "static/js/main.504c3e15.chunk.js"
+    "static/js/2.b893d01b.chunk.js",
+    "static/css/main.c8642aca.chunk.css",
+    "static/js/main.b8159d33.chunk.js"
   ]
 }
