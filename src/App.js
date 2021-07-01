@@ -13,11 +13,11 @@ function App() {
   return (
       <BrowserRouter>
       <Switch>
-          <Route exact path="/fr" component={ContenuFrancais} />
+          <Route path="/fr" component={ContenuFrancais} />
           {/* <Route exact path="/en" component={ContenuAnglais} /> */}
 
           {/* <Route path="/" component={Navbar} /> */}
-          <Route exact path="/" component={Contenu} />
+          <Route path="/" component={Contenu} />
       </Switch>
       </BrowserRouter>
   )
