@@ -24,7 +24,7 @@ function Apropos() {
                         </div>
 
                         <div className="imgLogo col-md-12" data-aos="fade-up" >
-                            <img src="../img/geeklyLogoPng.PNG" alt="geekly"/>
+                            <img src="../img/geeklyweb.png" alt="geekly"/>
                         </div>
                     </div>
                 </div>
