@@ -87,6 +87,7 @@
     height: 200px;
     width: 300px;
   }
+}
 @media (max-width: 1024px) {
   div.row{
     /* padding:5%; */
@@ -95,6 +96,6 @@
   div.cardsGalerie{
     height: 200px;
     width: 300px;
-  }
+  };
 
 }
