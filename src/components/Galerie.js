@@ -25,7 +25,7 @@ function Galerie() {
                     <p data-aos="fade-right">My project : </p>
                 </div>
                 <div className="row pb-5 ">
-                    <Card className="cardsGalerie textHover col-lg-7 col-md-12 mt-3  p-0 "data-aos="fade-up" >
+                    <Card className="cardsGalerie textHover col-lg-7 col-md-12 mt-3 col-sm-12 p-0 "data-aos="fade-up" >
                         <Card.Img className="imgGalerie " src="../img/realisations/capture.png" />
                         <div className="middle">
                             <div className="text">
@@ -37,7 +37,7 @@ function Galerie() {
                     </Card>    
                 </div>
                 <div className="row pb-5 ">
-                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 mt-3  " data-aos="fade-down">
+                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 col-sm-12 mt-3  " data-aos="fade-down">
                         <Card.Img className="imgGalerie"  src="../img/realisations/sitechef.png" />
                         <div className="middle">
                             <div className="text" data-aos="zoom-in-up">
@@ -49,7 +49,7 @@ function Galerie() {
                     </Card>            
                 </div>
                 <div className="row pb-5">
-                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 col-xs-12 mt-3 " data-aos="fade-down" >
+                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 col-sm-12 mt-3 " data-aos="fade-down" >
                         <Card.Img className="imgGalerie"  src="../img/realisations/epilogue_screen.png" />
                         <div className="middle">
                             <div className="text">
@@ -62,7 +62,7 @@ function Galerie() {
                 </div>
 
                     <div className="row pb-5">    
-                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 col-xs-12 mt-3 " data-aos="fade-down" >
+                    <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 col-sm-12 mt-3 " data-aos="fade-down" >
                         <Card.Img className="imgGalerie"  src="../img/realisations/spatial.png" />
                         <div className="middle">
                             <div className="text">
