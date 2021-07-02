@@ -45,7 +45,7 @@ your website through a wide range of devices.</span>
                     </div>
                     <div className="col-lg-3 cards" onMouseOver={addStyleBorder} data-aos="fade-up" data-aos-duration="1000">
                         <div className="imgDiv"data-aos="fade-down">
-                            <img onMouseOver={addStyle} src="../img/coding2.png" alt="coding" className="img styled" />
+                            <img onMouseOver={addStyle} src="../img/webdev.png" alt="coding" className="img styled" />
                         </div>
                         <h4 data-aos="fade-right">WEB DEVELOPER</h4>
                         <span>

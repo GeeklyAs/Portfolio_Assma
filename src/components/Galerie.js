@@ -36,7 +36,7 @@ function Galerie() {
                         </div>
                     </Card>    
                     <Card className="cardsGalerie textHover p-0 col-lg-7 col-md-12 mt-3  " data-aos="fade-down">
-                        <Card.Img className="imgGalerie"  src="../img/realisations/sitechef2.png" />
+                        <Card.Img className="imgGalerie"  src="../img/realisations/sitechef.png" />
                         <div className="middle">
                             <div className="text" data-aos="zoom-in-up">
                                  <span className="titreHover">Site Du Chef </span>  
