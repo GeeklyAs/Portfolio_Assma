@@ -64,10 +64,9 @@ const Navbar = () => {
     <Nav>
       <div className="logo d-flex">
           <a href="/"><img src="../img/geeklyLogo.PNG" className="logoGeekly" alt="LOGO" /></a>
-          <div className="belgiqueAll">
+          {/* <div className="belgiqueAll">
             <a href="/fr"><img src="../img/belgique.png" className="belgique" alt="belgique"  /></a>
-          {/* <img src="../img/geeklyLogoPng.png" className="logoGeekly" alt="LOGO"  /> */}
-        </div>
+        </div> */}
       </div>
       <Burger />
     </Nav>

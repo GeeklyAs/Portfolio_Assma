@@ -11,15 +11,16 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 function App() {
   return (
-      <BrowserRouter>
-      <Switch>
-          <Route path="/fr" component={ContenuFrancais} />
-          {/* <Route exact path="/en" component={ContenuAnglais} /> */}
+      // <BrowserRouter>
+      // <Switch>
+      //     <Route path="/fr" component={ContenuFrancais} />
+      //     {/* <Route exact path="/en" component={ContenuAnglais} /> */}
 
-          {/* <Route path="/" component={Navbar} /> */}
-          <Route path="/" component={Contenu} />
-      </Switch>
-      </BrowserRouter>
+      //     {/* <Route path="/" component={Navbar} /> */}
+      //     <Route path="/" component={Contenu} />
+      // </Switch>
+      // </BrowserRouter>
+      <Contenu/>
   )
 }
 
