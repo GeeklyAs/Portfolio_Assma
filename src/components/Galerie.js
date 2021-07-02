@@ -26,7 +26,7 @@ function Galerie() {
                 </div>
                 <div className="row ">
                     <Card className="cardsGalerie textHover col-lg-7 col-md-12 mt-3  p-0 "data-aos="fade-up" >
-                        <Card.Img className="imgGalerie " src="../img/realisations/jalapenoddle.png" />
+                        <Card.Img className="imgGalerie " src="../img/realisations/capture.png" />
                         <div className="middle">
                             <div className="text">
                                  <span className="titreHover">Jalapenoddle</span>  
