@@ -38,7 +38,7 @@
 @media only screen and (min-width: 150px) and (max-width: 850px) {
     /*Mobile View */
     .info{
-        /* background-image: url('../../img/reseauInfo.png'); */
+        background-image: url('../../img/reseauInfo.png');
         height: 200px;
         background-attachment: fixed;
         background-repeat: no-repeat;
