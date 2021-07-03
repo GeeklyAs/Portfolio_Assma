@@ -38,7 +38,7 @@
 @media only screen and (min-width: 150px) and (max-width: 850px) {
     /*Mobile View */
     .info{
-        background-image: url('../img/reseau.png');
+        background-image: url('../img/reseauInfo.png');
         height: 200px;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -49,9 +49,6 @@
         text-align: center;
         flex-direction: column;
         color: white;
-    
-    
-        
     }
     
     .bg-image{
@@ -66,15 +63,13 @@
         font-size: 18px;
     }
     
-  
-
 
   }
 
   @media only screen and (min-width: 700px) and (max-width: 1024px) {
     /*Mobile View */
     .info{
-        background-image: url('../img/reseau.png');
+        background-image: url('../img/reseauInfo.png');
         height: 300px;
         background-attachment: fixed;
         background-repeat: no-repeat;

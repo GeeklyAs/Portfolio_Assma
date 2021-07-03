@@ -82,7 +82,7 @@ function Contact() {
     }
 
     return(
-        <div id='5' className="contactAll pt-5">
+        <div id='5' className="contactAll pt-5 pb-3">
             <div className=" pgauche container">
             <form onSubmit={sendEmail}>
                     <div className="contactTest row d-flex justify-content-center align-items-center pb-5">
@@ -115,10 +115,14 @@ function Contact() {
                             <div className="col-8 pt-3 d-flex">
                                 <input type="submit" className="btnn" value="Send Message"></input>
                             </div>
-
                         </div>
                     </div>
                 </form>
+           <center><hr /></center> 
+            <div className=" copy text-center">
+                <span className="" dangerouslySetInnerHTML={{ "__html": " Assma Sayed - Geekly &copy; 2021" }} /> <br />
+                <span className="">made in React JS </span>
+            </div>
             </div>
         </div>
     )

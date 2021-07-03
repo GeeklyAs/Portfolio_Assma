@@ -8,7 +8,7 @@ import Info from './Info'
 import Galerie from './Galerie'
 import Contact from './Contact'
 // import Reseau from './Reseau'
-
+import Copyright from './Copyright'
 
 function Contenu() {
     return (
@@ -22,6 +22,7 @@ function Contenu() {
             <Galerie />
             <Contact />
             {/* <Reseau /> */}
+            {/* <Copyright />  */}
 
 
 
