@@ -1,74 +1,18 @@
-// import React from 'react';
-// import './Contact.css';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button';
-// import Col from 'react-bootstrap/Col';
-// import { send } from 'emailjs-com';
-
-// function Contact() {
-
-//     // function addForm(){
-//     //     let form = document.getElementById('divForm')
-//     //     form.classList.toggle('form')
-//     //     form.classList.toggle("addForm")
-//     // }
-
-//     return (
-//         <div id="divForm" className="form container">    
-//             <div className="col-md-12 titreCompetence">
-//                 <h1 className=" animate__animated animate__pulse text-center">CONTACT</h1>
-//                 <p className="text-center" data-aos="zoom-in-up">My work tools :</p>
-//             </div>
-
-//             <Form>
-//             <Form.Row>
-//                 <Form.Group as={Col} controlId="formGridEmail">
-//                 <Form.Label>Name</Form.Label>
-//                 <Form.Control type="text" placeholder="Enter your name" required/>
-//                 </Form.Group>
-
-//                 <Form.Group as={Col} controlId="formGridPassword">
-//                 <Form.Label>Firstname</Form.Label>
-//                 <Form.Control type="text" placeholder="Enter your firstname" required/>
-//                 </Form.Group>
-//             </Form.Row>
-
-//             <Form.Group controlId="formGridAddress1">
-//                 <Form.Label>Mail address</Form.Label>
-//                 <Form.Control type="email" placeholder="Enter email" required/>
-//             </Form.Group>
-
-
-//             <Form.Row>
-//                 <Form.Group as={Col} controlId="formGridCity">
-//                 <Form.Label>Phone number</Form.Label>
-//                 <Form.Control placeholder="+32 " required/>
-//                 </Form.Group>
-//                 <Form.Group controlId="exampleForm.ControlTextarea1">
-//                     <Form.Label>Your message</Form.Label>
-//                     <Form.Control placeholder="what is your question?" as="textarea" rows={3} />
-//                 </Form.Group>
-
-//             </Form.Row>
-
-
-//             <Button id="envoi" variant="primary" type="submit">
-//                 Envoyer
-//             </Button>
-            
-//             </Form>
-//         </div>
-//     )
-// }
-
-// export default Contact
-import emailjs from "emailjs-com";
 import React from 'react';
 import './Contact.css';
+// import "aos/dist/aos.css"
+import emailjs from "emailjs-com";
+import { FaGithub } from "react-icons/fa"
+import { AiFillLinkedin } from "react-icons/ai"
 
 
 function Contact() {
 
+
+    function popup() {
+        alert('message sent successfully')
+      }
+    
     function sendEmail(e) {
         e.preventDefault();
 
@@ -113,15 +57,21 @@ function Contact() {
                                 <textarea className="form-control" id="" cols="30" rows="5" placeholder="I respond quickly!" name="message"></textarea>
                             </div>
                             <div className="col-8 pt-3 d-flex">
-                                <input type="submit" className="btnn" value="Send Message"></input>
+                                <input onClick={popup} type="submit" className="btnn" value="Send Message"></input>
                             </div>
                         </div>
                     </div>
                 </form>
+                <div className="reseau text-center">
+                    <a href="https://www.linkedin.com/in/assma-sayed-9372a3114/"  target="_blank"><i> <AiFillLinkedin /> </i></a>
+                    <a href="https://github.com/GeeklyAs"  target="_blank"><i><FaGithub /></i></a>
+
+                </div>
+
            <center><hr /></center> 
             <div className=" copy text-center">
                 <span className="" dangerouslySetInnerHTML={{ "__html": " Assma Sayed - Geekly &copy; 2021" }} /> <br />
-                <span className="">made in React JS </span>
+                <span className="">Created in React JS </span>
             </div>
             </div>
         </div>

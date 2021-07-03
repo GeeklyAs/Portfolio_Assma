@@ -44,11 +44,30 @@
  h5{
      color:rgba(255, 255, 255, 0.363)
  }
+ .reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+ }
+.reseau>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 
+}
+.reseau>a>i{
+    font-size: 35px;
+    margin: 0 3px;
+    text-decoration: none;
+
+}
+.reseau>a:hover{
+    color: #9131c9;
+  }
  hr {
-     width: 40%;
-     
-     border-color: white;
+    width: 40%;
+    border-color: white;
  }
  @media (max-width: 812px) {
      .coord{
